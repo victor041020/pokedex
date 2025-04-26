@@ -1,6 +1,6 @@
-# Despliegue de la Aplicación Pokédex en Vercel
+# Despliegue de la Aplicación Pokédex en Azure
 
-Este documento detalla el proceso paso a paso para desplegar la aplicación Pokédex en la nube utilizando la plataforma Vercel.
+Este documento detalla el proceso paso a paso para desplegar la aplicación Pokédex en la nube utilizando la plataforma Azure.
 
 ---
 
@@ -37,25 +37,25 @@ Este documento detalla el proceso paso a paso para desplegar la aplicación Pok�
 
 ---
 
-## 4. Creación de cuenta en Vercel
+## 4. Creación de cuenta en Azure
 
-- Se accedió a la página oficial: https://vercel.com
+- Se accedió a la página oficial: https://Azure.com
 
 - Se creó una cuenta utilizando el inicio de sesión con GitHub.
 
-- Se autorizó a Vercel para acceder a los repositorios.
+- Se autorizó a Azure para acceder a los repositorios.
 
 - Se eligió el plan gratuito Hobby.
 
 ---
 
-## 5. Despliegue en Vercel
+## 5. Despliegue en Azure
 
-- En el panel de Vercel se seleccionó la opción "Add New Project".
+- En el panel de Azure se seleccionó la opción "Add New Project".
 
 - Se seleccionó el repositorio pokedex importado desde GitHub.
 
-- Vercel detectó automáticamente el framework Angular.
+- Azure detectó automáticamente el framework Angular.
 
 - No se modificaron las configuraciones por defecto.
 
@@ -65,7 +65,7 @@ Este documento detalla el proceso paso a paso para desplegar la aplicación Pok�
 
 ## 6. Eventualidad en el Despliegue
 
-Una vez completado el despliegue en Vercel, se probó la aplicación en el dominio generado por la plataforma. Sin embargo, se detectó que las **imágenes no se mostraban correctamente.**
+Una vez completado el despliegue en Azure, se probó la aplicación en el dominio generado por la plataforma. Sin embargo, se detectó que las **imágenes no se mostraban correctamente.**
 
 🔍 **Diagnóstico:**
 
