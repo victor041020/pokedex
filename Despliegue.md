@@ -85,6 +85,20 @@ Se modificó la propiedad para utilizar la ruta correcta:
 imagesPath: '/assets/images'
 ```
 
+### 6.1 Aumentar la seguridad de la aplicación
+
+Para mejorar la seguridad de mi Pokedex, añadí un archivo llamado **staticwebapp.config.json** en el directorio de despliegue. Su contenido fue el siguiente:
+
+```json
+{
+  "globalHeaders": {
+    "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;",
+    "X-Frame-Options": "ALLOWALL",
+    "Permissions-Policy": "geolocation=*, camera=*, microphone=*"
+  }
+}
+```
+
 ---
 
 ✅ **Estado final**
